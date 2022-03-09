@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kushal SB</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="Main">
+      <section class="Upper">
+        <header class="Icon">
+          <!-- <h1 style="font-size: 60px; color: rgb(57, 92, 10)">Kushal SB</h1> -->
+        </header>
+        <nav class="Links">
+          <ul class="Sub_links">
+            <li class="Header_links" style="font-size: 30px">
+              <a href="https://github.com/kushalSB/" target="_blank">
+                <img src="/pics/github_icon.png" height="40" width="40" />
+              </a>
+            </li>
+            <li class="Header_links" style="font-size: 20px">
+              <img src="/pics/linkedin_icon.png" height="40" width="40" />
+            </li>
+            <li class="Header_links" style="font-size: 30px">
+              <img src="/pics/instagram_icon.png" height="40" width="40" />
+            </li>
+          </ul>
+        </nav>
+      </section>
+
+      <section class="Middle">
+        <aside class="Left">
+          <ul class="Left_links">
+            <a href="index.html"><li>Home</li></a>
+            <li class="Left_links_main">Calculator</li>
+            <a href="stack.html"><li>Stack Implementation</li></a>
+            <a href="queue.html"><li>Queue Implementation</li></a>
+            <a href="bst.html"><li>Tree Implementation</li></a>
+            <a href="avl.html"><li>Sort</li></a>
+          </ul>
+        </aside>
+        <section class="Main_body_calc">
+          <section id="Calc_body">
+            <table>
+              <tbody>
+                <tr class="buttons">
+                  <th>
+                    <button
+                      id="buttons"
+                      class="Calc_buttons_general"
+                      onclick="input_value(1)"
+                    >
+                      1
+                    </button>
+                  </th>
+                  <th onclick="input_value(2)">
+                    <button id="buttons" class="Calc_buttons_general">2</button>
+                  </th>
+                  <th>
+                    <button
+                      id="buttons"
+                      onclick="input_value(3)"
+                      class="Calc_buttons_general"
+                    >
+                      3
+                    </button>
+                  </th>
+                  <th>
+                    <button
+                      id="buttons"
+                      onclick="input_value(0)"
+                      class="Calc_buttons_general"
+                    >
+                      0
+                    </button>
+                  </th>
+                  <th>
+                    <button
+                      id="equal_to"
+                      onclick="input_value(14,1)"
+                      class="Calc_buttons_general"
+                    >
+                      ACE
+                    </button>
+                  </th>
+                </tr>
+                <tr class="buttons">
+                  <th>
+                    <button
+                      id="buttons"
+                      onclick="input_value(4)"
+                      class="Calc_buttons_general"
+                    >
+                      4
+                    </button>
+                  </th>
+                  <th>
+                    <button
+                      id="buttons"
+                      onclick="input_value(5)"
+                      class="Calc_buttons_general"
+                    >
+                      5
+                    </button>
+                  </th>
+                  <th onclick="input_value(6)">
+                    <button id="buttons" class="Calc_buttons_general">6</button>
+                  </th>
+                  <th>
+                    <button
+                      id="adds"
+                      onclick="input_value(10,1)"
+                      class="Calc_buttons_general"
+                    >
+                      +
+                    </button>
+                  </th>
+                  <th>
+                    <button
+                      id="mult"
+                      onclick="input_value(11,1)"
+                      class="Calc_buttons_general"
+                    >
+                      *
+                    </button>
+                  </th>
+                </tr>
+                <tr class="buttons">
+                  <th>
+                    <button
+                      id="buttons"
+                      onclick="input_value(7)"
+                      class="Calc_buttons_general"
+                    >
+                      7
+                    </button>
+                  </th>
+                  <th>
+                    <button
+                      id="buttons"
+                      onclick="input_value(8)"
+                      class="Calc_buttons_general"
+                    >
+                      8
+                    </button>
+                  </th>
+                  <th>
+                    <button
+                      id="buttons"
+                      onclick="input_value(9)"
+                      class="Calc_buttons_general"
+                    >
+                      9
+                    </button>
+                  </th>
+                  <th>
+                    <button
+                      id="sub"
+                      onclick="input_value(12,1)"
+                      class="Calc_buttons_general"
+                    >
+                      -
+                    </button>
+                  </th>
+                  <th>
+                    <button
+                      id="divide"
+                      onclick="input_value(13,1)"
+                      class="Calc_buttons_general"
+                    >
+                      /
+                    </button>
+                  </th>
+                </tr>
+                <tr class="buttons">
+                  <th colspan="4" class="inv" id="Screen_th">
+                    <!-- If you dont give value it will take in zero -->
+                  </th>
+                  <th class="button">
+                    <button
+                      id="equals_to"
+                      onclick="input_value(15,1)"
+                      class="Calc_buttons_general"
+                    >
+                      =
+                    </button>
+                  </th>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+        </section>
+      </section>
+    </section>
+    <script src="calculator_page.js"></script>
+  </body>
+</html>
